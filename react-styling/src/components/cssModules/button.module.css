@@ -6,4 +6,34 @@
     font-size: 1.4rem;
     text-align: center;
     cursor: pointer;
+    border-radius: .5rem;
+    border: none;
+    transition: all .5s;
+}
+
+.default:hover{
+    background-color: white;
+    color: purple;
+    outline: 2px solid purple;
+}
+.primary:hover{
+    background-color: white;
+    color: violet;
+    outline: 2px solid violet;
+}
+.secondary:hover{
+    background-color: white;
+    color: blue;
+    outline: 2px solid blue;
+}
+
+.primary{
+    composes: default;
+    background-color: violet;
+
+}
+.secondary{
+    composes: default;
+    background-color: blue;
+
 }

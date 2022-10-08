@@ -8,7 +8,9 @@ function App() {
     <div className="App">
       <Inline/>
       <Stylesheet/>
-      <Button/>
+      <Button />
+      <Button variant='primary'/>
+      <Button variant='secondary'/>
     </div>
   );
 }
