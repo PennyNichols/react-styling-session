@@ -1,0 +1,9 @@
+.default{
+    background-color: purple;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    font-size: 1.4rem;
+    text-align: center;
+    cursor: pointer;
+}
